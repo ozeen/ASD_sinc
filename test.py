@@ -76,7 +76,7 @@ def main():
     # 随机种子
     parser.add_argument('--random_seed', type=int, default=42, help='random seed')
     # 测试/加载
-    parser.add_argument('--checkpoint_dir',  default='./weights/RGC/sinc/best_checkpoint.pth.tar',type=str,  help='model checkpoint path')
+    parser.add_argument('--checkpoint_dir',  default='./weights/best_checkpoint.pth.tar',type=str,  help='model checkpoint path')
 
 
     args = parser.parse_args()
